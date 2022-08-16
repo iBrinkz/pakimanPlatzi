@@ -14,7 +14,7 @@ class Pakiman{
     }
 
     hablar(){
-        
+        document.write(this.nombre);
     }
     mostrar(){
         document.body.appendChild(this.imagen);
@@ -27,8 +27,6 @@ class Pakiman{
 var cauchin = new Pakiman("Cauchin", 100, 30);
 var pokacho = new Pakiman("Pokacho", 80, 50);
 var tocinauro = new Pakiman("Tocinauro", 120, 40); 
-
-cauchin.hablar();
 
 cauchin.mostrar();
 tocinauro.mostrar();
