@@ -12,3 +12,7 @@ coleccion.push(new Pakiman("Tocinauro", 120, 40));
 for(var p of coleccion){
     p.mostrar();
 }
+//muestra cada array asociativo
+for(var x in imagenes){
+    console.log(x);
+}
