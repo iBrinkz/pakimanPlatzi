@@ -8,7 +8,7 @@ var coleccion = [];
 coleccion.push(new Pakiman("Cauchin", 100, 30));
 coleccion.push(new Pakiman("Pokacho", 80, 50));
 coleccion.push(new Pakiman("Tocinauro", 120, 40));
-//for especial que obtiene la instancia u objeto de cada p utilizando of
+//ejecutar el metodo mostrar para cada instancia p
 for(var p of coleccion){
-    console.log(p);
+    p.mostrar();
 }
